@@ -1,6 +1,6 @@
 import React from 'react';
 import { NavLink } from 'react-router-dom';
-import {SocialIcon} from 'react-social-icons';
+
 
 const NavBar = () => {
     return (
@@ -20,11 +20,6 @@ const NavBar = () => {
                         About Me!
                     </NavLink>
                 </nav>
-                 {/* <div className="inline-flex py-3 px-3 my-6">
-                    <SocialIcon url="https://twitter.com/earthtojuli" className="mr-4" target="_blank" fgColor="#fff" style={{ height: 35, width: 35}}/>
-                    <SocialIcon url="https://earthtojuli.tumblr.com/" className="mr-4" target="_blank" fgColor="#fff" style={{ height: 35, width: 35}}/>
-                    <SocialIcon url="https://www.instagram.com/earthtojuli/?hl=en" className="mr-4" target="_blank" fgColor="#fff" style={{ height: 35, width: 35}}/>
-                </div>  */}
             </div>
         </header>
     )
