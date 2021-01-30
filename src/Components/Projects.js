@@ -26,7 +26,7 @@ const Projects = () => {
                 <h2 className="text-lg text-gray-600 flex justify-center mb-12">Welcome to my projects page!</h2>
                 <section className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
                     {projectData && projectData.map((project,index) => (
-                    <article className="relative rounded-lg shadow-xl bg-white p-16">
+                    <article className="relative rounded-lg shadow-xl bg-white p-16" key={index}>
                         <h3 className="text-gray-800 text-3xl font-bold mb-2 hover:text-red-700">
                             <a href={project.link}
                             alt={project.title}
